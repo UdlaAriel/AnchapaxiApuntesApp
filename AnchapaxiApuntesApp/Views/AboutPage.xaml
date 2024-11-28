@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:models="clr-namespace:AnchapaxiApuntesApp.Models"
              x:Class="AnchapaxiApuntesApp.Views.AboutPage"
-             Title="AboutPage">
+             Title="Acerca - Ariel Anchapaxi">
     <ContentPage.BindingContext>
         <models:About />
     </ContentPage.BindingContext>
@@ -11,8 +11,8 @@
     <VerticalStackLayout Spacing="10" Margin="10">
         <HorizontalStackLayout Spacing="10">
             <!--Replace with my foto or meme-->
-                <Image Source="dotnet_bot.png" 
-                   SemanticProperties.Description="The dot net bot waving hello!"
+            <Image Source="meme_lenin_moreno.jpg" 
+                   SemanticProperties.Description="Cuando la política era sana :( JAJASJD"
                    HeightRequest="64" />
             <!--<Label FontSize="22" FontAttributes="Bold" Text="Notes" VerticalOptions="End" />
             <Label FontSize="22" Text="v1.0" VerticalOptions="End" />-->
